@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+
+<div *ngFor="let festival of festivals;">
+  {{festival.name}} {{festival.tables}}
+</div>
+<p>Nombre de festivals {{festivals.length}}</p>
+<button (click)="ajoute()">Ajouter un festival</button>
